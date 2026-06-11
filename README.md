@@ -8,7 +8,7 @@ By checking profiles, the engine generates a ranking system that identifies matc
 
 ---
 
-## 🛠️ Tech Stack & Libraries
+## Tech Stack & Libraries
 - **Language:** Python
 - **Environment:** VS Code / GitHub Codespaces
 - **Core Processing:** Pandas, NumPy
@@ -16,7 +16,7 @@ By checking profiles, the engine generates a ranking system that identifies matc
 
 ---
 
-## 🚀 Key System Components
+## Key System Components
 
 ### 1. Resume Text Preprocessing
 Before analyzing a resume, the system cleans and prepares the text by:
