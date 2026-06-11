@@ -33,7 +33,50 @@ The system uses Cosine Similarity to compare a candidate's resume with a job des
 ---
 
 ## Operational Validation & Output
-
+=====================================================================
+                   CANDIDATE RANKING DASHBOARD                       
+=====================================================================
+Rank 1: Charlie Brown
+Match Score: 31.7%
+Key Missing Tokens / Gaps: [engineer, scientist, modeling, strong]
+---------------------------------------------------------------------
+Rank 2: Alice Smith
+Match Score: 21.07%
+Key Missing Tokens / Gaps: [engineer, modeling, strong, analytical]
+---------------------------------------------------------------------
+Rank 3: Bob Jones
+Match Score: 0.0%
+Key Missing Tokens / Gaps: [engineer, scientist, modeling, strong]
+---------------------------------------------------------------------
+Rank 3: Diana Prince
+Match Score: 0.0%
+Key Missing Tokens / Gaps: [engineer, scientist, modeling, strong]
+---------------------------------------------------------------------
 ### Automated Match Scoring Simulation
-```text
-[INSERT YOUR CODESPACE TERMINAL OUTPUT HERE]
+=====================================================================
+               INITIALIZING RESUME SCREENING ENGINE                    
+=====================================================================
+Target Role Criteria Profile:
+Seeking a Data Scientist / Machine Learning Engineer with strong proficiency in 
+Python, SQL, machine learning architectures, pandas, and scikit-learn data pipelines. 
+Experience with analytical text modeling or predictive systems is highly preferred.
+
+=====================================================================
+                   CANDIDATE RANKING DASHBOARD                       
+=====================================================================
+Rank 1: Alice Smith
+ Match Score: 60.12%
+ Key Missing Tokens / Gaps: []
+---------------------------------------------------------------------
+Rank 2: Charlie Brown
+ Match Score: 23.41%
+ Key Missing Tokens / Gaps: [architectures, pipelines, analytics]
+---------------------------------------------------------------------
+Rank 3: Bob Jones
+ Match Score: 0.0%
+ Key Missing Tokens / Gaps: [engineer, scientist, modeling, strong]
+---------------------------------------------------------------------
+Rank 3: Diana Prince
+ Match Score: 0.0%
+ Key Missing Tokens / Gaps: [engineer, scientist, modeling, strong]
+---------------------------------------------------------------------
